@@ -1,4 +1,5 @@
 FROM node:10-alpine
+EXPOSE 8080
 ARG USERNAME
 ARG PASSWORD
 RUN npm install -g tiddlywiki
